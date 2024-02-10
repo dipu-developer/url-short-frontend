@@ -1,0 +1,17 @@
+body{
+    background-color: #F5F6F7 !important;
+}
+.svg{
+    width: fit-content;
+    margin: auto;
+}
+.login-form{
+    max-width: 300px;
+}
+.form-pera{
+    color: #3d3a3a;
+    font-size: 14px;
+}
+img{
+    width: 100%;
+}
