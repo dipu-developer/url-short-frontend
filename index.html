@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shortly</title>
+    <link rel="shortcut icon" href="img/faviconpng.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -13,9 +14,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Shortly</a>
+    <nav class="navbar navbar-expand-lg pt-2  text-white fixed-top mb-5">
+      <div class="container-fluid px-5 mybg">
+        <div class="d-flex justify-content-center">
+          <!-- <a class="" href="index.html"> -->
+          <img src="img/logopng.png" alt="logopng" class="navlogo mx-3" />
+          <!-- </a> -->
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -29,33 +34,43 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            
+            <li class="nav-item px-md-5">
+              <a class="nav-link text-white" href="#">Product</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
+            <li class="nav-item px-md-5">
+              <a class="nav-link text-white" href="#">Api</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Api</a>
+            
+          </ul>
+          <ul  class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item px-md-5">
+              <a class="nav-link text-white" href="login.html">Login</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Login</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sign up Free</a>
+            <li class="nav-item px-md-5">
+              <a class="m-0" href="signup.html">
+                <button class="btn btn-primary">Sign up Free</button>
+              </a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div class="container text-center pt-5">
+    <div class="container-fluid  text-center py-5 bg-wave text-white  mt-5">
       <h1>Make your <span class="text-primary">connection </span> count</h1>
       <p>Create short links using shortly and earn money.</p>
+      <form action="" method="post" >
+        <div class="d-flex input-box m-auto ">
+          <input type="text" class="form-control d-inline-block " placeholder="Enter URL" />
+
+          <button type="button" class="btn btn-primary d-inline-block p-3">Shorten</button>
+        </div>
+      </form>
     </div>
-    <div class="container mt-4">
+    <div class="container my-5">
       <div class="row">
-        <div class="col-md-6 text-center ">
+        <div class="col-md-6 text-center">
           <h3>Simple and fast URL shortener!</h3>
           <p>
             ShortURL allows to shorten long links from Instagram, Facebook,
@@ -77,11 +92,23 @@
       </div>
     </div>
     <!-- === motive ===  -->
-    <div class="container mt-4">
+
+    <div class="container-fluid bg-wave py-5">
+      <h2 class="text-center fs-1 my-5 text-white mt-0">
+        More than a free link shortener
+      </h2>
+      <div class="d-flex justify-content-center mt-4">
+        <button type="button" class="btn btn-primary mx-auto px-5 py-3 mb-0">
+          Get Started
+        </button>
+      </div>
+    </div>
+
+    <div class="container my-5">
       <div class="row">
         <div class="col-md-4">
           <div class="details">
-            <div class="svg text-primary ">
+            <div class="svg text-primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="3em"
@@ -94,13 +121,16 @@
                 />
               </svg>
             </div>
-            <h4 class="text-center ">Easy</h4>
-            <p class="text-center  ">ShortURL is easy and fast, enter the long link to get your shortened link</p>
+            <h4 class="text-center">Easy</h4>
+            <p class="text-center">
+              ShortURL is easy and fast, enter the long link to get your
+              shortened link
+            </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="details">
-            <div class="svg text-primary ">
+            <div class="svg text-primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="3em"
@@ -113,14 +143,15 @@
                 />
               </svg>
             </div>
-            <h4 class="text-center ">Shortened</h4>
-            <p class="text-center ">
-              Use any link, no matter what size, ShortURL always shortens</p>
+            <h4 class="text-center">Shortened</h4>
+            <p class="text-center">
+              Use any link, no matter what size, ShortURL always shortens
+            </p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="details">
-            <div class="svg text-primary ">
+            <div class="svg text-primary">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="3em"
@@ -152,19 +183,20 @@
                 </g>
               </svg>
             </div>
-            
-            <h4 class="text-center ">Secure</h4>
-            <p class="text-center ">
-              It is fast and secure, our service has data encryption protection</p>
+
+            <h4 class="text-center">Secure</h4>
+            <p class="text-center">
+              It is fast and secure, our service has data encryption protection
+            </p>
           </div>
         </div>
       </div>
     </div>
     <footer>
-      <div class="container">
+      <div class="container-fluid bg-dark text-white py-3">
         <div class="">
           <p class="text-center">
-            © 2024 Shortly | Develop By <span>Deepak Sharma</span>
+            © 2024 Shortly | Develop By <a href="">Deepak Sharma</a>
           </p>
         </div>
       </div>

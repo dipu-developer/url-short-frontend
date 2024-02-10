@@ -14,9 +14,13 @@
   </head>
   <body>
     <!-- === Nav Bar Start ===  -->
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Shortly</a>
+    <nav class="navbar navbar-expand-lg pt-2  text-white fixed-top ">
+        <div class="container-fluid px-5 mybg">
+          <div class="d-flex justify-content-center">
+            <a class="" href="index.html">
+            <img src="img/logopng.png" alt="logopng" class="navlogo mx-3" />
+            </a>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
@@ -30,31 +34,36 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              
+              <li class="nav-item px-md-5">
+                <a class="nav-link text-white" href="#">Product</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+              <li class="nav-item px-md-5">
+                <a class="nav-link text-white" href="#">Api</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Api</a>
+              
+            </ul>
+            <ul  class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item px-md-5">
+                <a class="nav-link text-white" href="login.html">Login</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Sign up Free</a>
+              <li class="nav-item px-md-5">
+                <a class="nav-link text-white" href="signup.html">Sign up Free</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
     <!-- === Nav Bar End ===  -->
-    <div class="container mt-5">
-      <div class="row">
+    <div class="container my-5">
+      <div class="row pt-5">
         <div class="col-md-6">
-          <h1 class="text-center">Shortly</h1>
-          <p class="text-center">Welcome Back</p>
+          <!-- <h1 class="text-center">Shortly</h1> -->
+          <div class="d-flex justify-content-center">
+            <img src="img/logopng.png" alt="logopng" class="logo" />
+          </div>
+
+          <p class="text-center fs-1 myfont" >Welcome Back</p>
           <h2 class="text-center mt-3">Login</h2>
           <div class="login-form m-auto mt-5">
             <form action="" method="post">
@@ -72,20 +81,29 @@
                   placeholder="Your Password"
                 />
               </div>
-              
-                <button class="btn btn-primary w-100" type="button">
-                  Login
-                </button>
-              
+
+              <button class="btn btn-primary w-100" type="button">Login</button>
             </form>
-            <p class="text-center form-pera mt-4">Do not have an account yet? <a href="" class="text-primary ">Sign up</a></p>
+            <p class="text-center form-pera mt-4">
+              Do not have an account yet?
+              <a href="" class="text-primary">Sign up</a>
+            </p>
           </div>
         </div>
         <div class="col-md-6 d-flex align-content-center">
-          <img src="undraw_login_re_4vu2.svg" alt="login Image">
+          <img src="img/login.svg" alt="login Image" />
         </div>
       </div>
     </div>
+    <footer>
+        <div class="container-fluid bg-dark text-white py-3">
+          <div class="">
+            <p class="text-center">
+              © 2024 Shortly | Develop By <a href="">Deepak Sharma</a>
+            </p>
+          </div>
+        </div>
+      </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
