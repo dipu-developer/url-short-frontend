@@ -67,3 +67,8 @@ img {
 .input-box button {
     border-radius: 0;
 }
+.d-fix-footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
