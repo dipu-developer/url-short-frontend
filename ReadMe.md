@@ -12,9 +12,8 @@ I hope you will get help from this code to build your website.
 
 https://dipu-developer.github.io/portfolio/
 
-## Refference Website
+## Reference Website
 
 - Bitly - https://bitly.com/
-
 - Short URL - https://www.shorturl.at/
 - Shrinkme -https://shrinkme.io/

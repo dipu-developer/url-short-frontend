@@ -72,3 +72,8 @@ img {
     bottom: 0;
     right: 0;
 }
+.table-btn{
+    text-align: center;
+    font-size: 25px;
+    width: 70px;
+}
